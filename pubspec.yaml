@@ -1,0 +1,35 @@
+name: iasuice
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  image_picker: ^1.0.4
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0   # 👈 YA ESTÁ BIEN AGREGADO
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  intl: ^0.18.1  
+    
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - imagenes/fondo AI.jpg
+    - imagenes/fondo_login.png
+    - imagenes/nat.jpeg
+    - imagenes/Animacion.png
+
